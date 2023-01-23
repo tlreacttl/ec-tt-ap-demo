@@ -17,6 +17,7 @@ export const signOutAction = () => {
     type: "SIGN_OUT",
     payload: {
       isSignedIn: false,
+      role: "", // 追記
       uid: "",
       username: ""
     }
